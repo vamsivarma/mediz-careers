@@ -1,0 +1,275 @@
+/* Start - Common skin settings */
+
+#page.site.mediz-careers-site-holder {
+	overflow: hidden; /* This is not a good approach. Need to remove this once the dimension calculation functions are made efficient*/ 
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#page.mediz-careers-site-holder ::-webkit-input-placeholder {
+	color: #999;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+#page.mediz-careers-site-holder :-moz-placeholder {
+	color: #999;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+#page.mediz-careers-site-holder ::-moz-placeholder {
+	color: #999;
+	font-weight: 400;
+	font-size: 12px;
+} 
+
+#page.mediz-careers-site-holder  :-ms-input-placeholder {
+	color: #999;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+/* End - Common skin settings */
+
+/* Start -  Customization of Contact Form Skin */
+
+#page.mediz-careers-site-holder .wpcf7 fieldset {
+	background: none;
+	padding-top: 0px;
+}
+
+#page.mediz-careers-site-holder .wpcf7 .wpcf7-form.cf7skins.cf7s-seaspray .mediz-form-holder-common select {
+	margin-bottom: 8px;
+	padding: 5px 7px;
+	border: 1px solid #55d1b7;
+	background: #f2f2f2;
+}
+
+#page.mediz-careers-site-holder .wpcf7 input, 
+#page.mediz-careers-site-holder  .wpcf7 textarea,
+#page.mediz-careers-site-holder  .wpcf7 select {
+	font-size: 14px;
+    	color: #444;
+	background: none;
+	border: none;
+	font-weight: 600;
+}
+
+#page.mediz-careers-site-holder .wpcf7 li label {
+	font-size: 14px;
+	color: #41C7B1;
+    	margin: 13px 0px;
+    	font-weight: 600;
+    	height: 15px;
+    	visibility: hidden; /*Labels are hidden initially and they are visible only when something is filled in that particular form field */
+    	opacity:0;
+    	-ms-transform: visibility 0s linear 0.5s,opacity 0.5s linear;
+	-webkit-transform: visibility 0s linear 0.5s,opacity 0.5s linear;
+  	transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+}
+
+#page.mediz-careers-site-holder .wpcf7 input, 
+#page.mediz-careers-site-holder  .wpcf7 textarea {
+	border: none;
+	border-bottom: 1px solid #CCC;
+	padding: 0px 4px 2px 0px;
+	margin-bottom: 0px;
+}
+
+#page.mediz-careers-site-holder  .wpcf7 textarea {
+	height: 150px;
+	resize: none;
+}
+
+#page.mediz-careers-site-holder .wpcf7 input:focus, 
+#page.mediz-careers-site-holder  .wpcf7 textarea:focus {
+	border-bottom: 2px solid #41C7B1;
+	padding-bottom: 1px;
+}
+
+#page.mediz-careers-site-holder .wpcf7 .cf7s-seaspray .mediz-form-holder-common {
+	border: none;
+}
+
+#page.mediz-careers-site-holder .wpcf7 .cf7s-seaspray {
+	border: none;
+	background: none;
+	padding-top: 0px;
+	clear: both;
+}
+
+#page.mediz-careers-site-holder .wpcf7 {
+	font-size: 12px;
+}
+
+#page.mediz-careers-site-holder .wpcf7 .wpcf7-submit {
+	background-color: #4286F5;
+	color: #ECFDFF;
+	font-size: 13px;
+	padding: 10px 30px;
+	margin-top: 15px;
+	font-weight: 700;
+}
+
+#page.mediz-careers-site-holder .wpcf7 li {
+}
+
+#page.mediz-careers-site-holder .wpcf7 .cf7s-reqd {
+	color: #DD3737;
+}
+
+
+/* End -  Customization of Contact Form Skin */
+
+#page.mediz-careers-site-holder {
+	color: #999;
+}
+
+#page.mediz-careers-site-holder .mediz-careers-header,
+#page.mediz-careers-site-holder #mediz-footer-holder {
+	background-color: #363636;
+}
+
+#page.mediz-careers-site-holder .carousel-button {
+    	padding: 15px;
+    	min-width: 150px;
+    	border: none;
+    	font-size: 20px;
+}
+
+#page.mediz-careers-site-holder .carousel-button.menu-previous-page-nav {
+	display: inline-block;
+    	background-color: #363636;
+    	border-radius: 50% 50%;
+    	min-width: 70px;
+    	padding: 12px;
+    	position: relative;
+    	top: 5px;
+}
+
+#page.mediz-careers-site-holder  .mediz-button-common {
+	background-color: #20C8B1;
+    	color: #FBFFFF;
+    	padding: 10px;
+    	min-width: 120px;
+    	border: none;
+    	font-size: 16px;
+}
+
+#page.mediz-careers-site-holder .carousel-button.mediz-button-common {
+    	padding: 15px;
+    	min-width: 150px;
+    	border: none;
+    	font-size: 20px;
+}
+
+
+#page.mediz-careers-site-holder .mediz-careers-header .header-links-nav {
+	font-size: 16px;
+    	line-height: 54px;
+}
+
+#page.mediz-careers-site-holder .mediz-careers-header .header-links-nav .header-button-group {
+    	color: #999;
+}
+
+#page.mediz-careers-site-holder .carousel-button.margin-spacing-cls, .margin-spacing-cls {
+	margin-right: 20px;
+}
+
+#page.mediz-careers-site-holder .mediz-careers-footer .section-title {
+	margin-left: 6px;
+    	font-size: 22px;
+	color: #595959;	
+}
+
+
+
+#page.mediz-careers-site-holder .mediz-careers-content {
+	background-color: #EBEBEB;
+	min-height: 300px;
+}
+
+#page.mediz-careers-site-holder .mediz-careers-content .page-heading-common {
+	color: #444;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#page.mediz-careers-site-holder .page-content-common, #page.mediz-careers-site-holder .success_page_common .thank-subheading {
+	color: #393939;
+	font-size: 14px;
+}
+
+#page.mediz-careers-site-holder .mediz-careers-footer .copyright-full {
+	border-top: 1px solid #464646;
+	font-size: 11px; 
+	color: #999;
+}
+
+#page.mediz-careers-site-holder .mediz-careers-footer ul.main-links-nav li a {
+	color: #999;
+	font-size: 14px;
+}
+
+#mediz-footer-holder .footer-main-section  ul.social-links-nav li a {
+	width: 36px;
+	height: 36px;
+}
+
+@media (max-width:480px) {
+	#page.mediz-careers-site-holder .mediz-careers-header .header-links-nav {
+		font-size: 14px;
+	}
+	
+	#page.mediz-careers-site-holder  .carousel-button.mediz-button-common {	
+    		padding: 8px;
+    		min-width: 80px;
+    		font-size: 18px;
+	}
+	
+	#page.mediz-careers-site-holder .carousel-button.menu-previous-page-nav {
+		min-width: 46px;
+    		padding: 2px;
+    		margin-right: 10px;
+    		top: 6px;
+	}
+	
+	#page.mediz-careers-site-holder .carousel-button.menu-previous-page-nav img {
+		width: 20px;
+		height: 20px;
+		margin-top: -4px;
+	}
+	
+	.mediz-main-menu-holder {
+		margin-top: -60px;
+	}
+	
+	#page.mediz-careers-site-holder .carousel-button.margin-spacing-cls {
+		margin-right: 10px
+	}	
+}
+
+@media (max-width: 375px) {
+	.margin-spacing-cls {
+		margin-right: 15px;
+	}
+}
+
+@media (max-width: 330px) {
+	#page.mediz-careers-site-holder .carousel-button.margin-spacing-cls {
+		margin-right: 0px
+	}
+	
+	.margin-spacing-cls {
+		margin-right: 5px;
+	}
+}
+
+@media (max-width: 767px) { 	
+		
+}
+
+
+
+

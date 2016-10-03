@@ -1,0 +1,368 @@
+/* Start - Common CSS classes across the portal */
+#page.site.mediz-careers-site-holder .hide-element-common {
+	display: none !important;
+}
+
+#page.site.mediz-careers-site-holder .wpcf7 li .visibility-hidden-common {
+    	visibility: hidden;
+    	opacity: 0;
+}
+
+#page.site.mediz-careers-site-holder .wpcf7 li .visibility-visible-common {
+	visibility: visible;
+    	opacity: 1;	
+}
+
+.cursor-pointer-common, .js-button-action-common {
+	cursor: pointer;
+}
+
+.text-center-common {
+	text-align: center;
+}
+
+.left-float-common {
+	float: left;
+}
+
+.right-float-common {
+	float: right;
+}
+
+.no-decoration-common:hover {
+	text-decoration: none;
+}
+
+.clear-both-common {
+	clear: both;
+}
+
+.text-indent-common {
+	text-indent: 30px;
+	text-align: justify;
+	word-spacing: -1px;
+}
+
+.mediz-page-holder { 
+	width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#page.site.mediz-careers-site-holder .entry-header {
+	display: none;
+}
+
+#page.site.mediz-careers-site-holder .nav-button-common {
+	margin-bottom: 10px;
+}
+
+/* CSS for vertically center alligning page content */
+
+#page.site.mediz-careers-site-holder .outer-holder {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#page.site.mediz-careers-site-holder .middle-holder {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#page.site.mediz-careers-site-holder .middle-holder.content-page-common {
+    vertical-align: top;
+    padding: 30px 15px 0px 15px; 	
+}
+
+#page.site.mediz-careers-site-holder .inner-holder {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px; /* This has to be set from JS layer */ 
+    padding: 0px 10px;
+}
+
+#page.mediz-careers-site-holder .mediz-form-page-holder .inner-holder {
+	margin-left: inherit;
+}
+
+/* CSS for vertically center alligning page content */
+
+/* End - Common CSS classes across the portal */
+
+
+/* Start - Added for MdizCareers.com */
+
+
+.site {
+	background: transparent !important;
+}
+
+
+#page.site.mediz-careers-site-holder .site-branding {
+	padding: 20px 0px 20px 10px;
+	margin: 0px;
+}
+
+.header-image img {
+	min-height: 300px;
+}
+
+.custom-logo-link {
+	width: 145px;
+	height: 54px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.custom-logo {    
+	width: 100%;
+	height: 100%;
+}
+
+.mediz-main-menu-holder {
+	width: 100%;
+	text-align: center;
+	margin-top: -90px;
+	position: absolute;
+}
+
+/* Styles related to Mediz Careers footer - Start */
+
+#mediz-footer-holder {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#mediz-footer-holder .main-footer-content-inner {
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+	max-width: 1125px;
+	padding: 0;
+}
+
+#mediz-footer-holder .footer-section-common {
+	float: left;
+    clear: both;
+    width: 100%;
+}
+
+#mediz-footer-holder .footer-main-section  ul.main-links-nav {
+    float: left;
+    margin: 50px 0px 10px 0px;
+    padding: 0;
+    list-style: none;
+    line-height: 39px;
+}
+
+#mediz-footer-holder .footer-main-section  ul.main-links-nav li {
+    float: left;
+    padding: 0px 10px;
+}
+
+#mediz-footer-holder .footer-main-section  ul.main-links-nav li a {
+    letter-spacing: 0.030em;
+    transition: color 0.5s ease;
+    text-decoration: none;
+}
+
+#mediz-footer-holder .footer-main-section  ul.main-links-nav li a:hover {
+	text-decoration: none;
+}
+
+#mediz-footer-holder .footer-main-section  ul.social-links-nav {
+    padding: 0;
+    list-style: none;
+    margin: 50px 0px 10px 0px;
+}
+
+#mediz-footer-holder .footer-main-section  ul.social-links-nav li {
+    float: left;
+}
+
+#mediz-footer-holder .footer-main-section  ul.social-links-nav li a {
+    text-decoration: none;
+    display: block;
+    text-indent: 0px;
+    margin: 8px;
+    padding-left: 0px;
+    background-repeat: no-repeat;	
+}
+
+#mediz-footer-holder .footer-logo-section  .main-logo-holder {
+	width: 100%;
+    float: left;
+}
+
+#mediz-footer-holder .footer-logo-section p.copyright-full {
+	width: 100%;
+    	float: left;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+#mediz-footer-holder .custom-logo-link {
+   width: 50px;
+   height: 50px;
+   margin-left: 0px;
+}  
+
+@media only screen and (max-width: 1024px) {
+  
+  #mediz-footer-holder  .main-footer-content-inner {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 98%
+  }
+  
+  #mediz-footer-holder .footer-main-section  ul.main-links-nav li {
+	float: none;
+    padding: 12px;
+    white-space: nowrap
+  }
+  
+  #mediz-footer-holder .footer-main-section  ul.main-links-nav {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 0;
+    width: 100%
+  }
+  
+  #mediz-footer-holder  li {
+    display: inline
+  }
+  
+  #mediz-footer-holder .footer-main-section .main-links-nav a {
+    padding: 2px 12px;
+    text-decoration: none;
+    line-height: 2.2
+  }
+  
+  #mediz-footer-holder .footer-main-section ul.social-links-nav li {
+    float: none
+  }
+  
+  #mediz-footer-holder .footer-main-section ul.social-links-nav .social-common {
+    display: inline-block;
+    margin-top: 5px;
+  }
+  
+  #mediz-footer-holder .footer-section-common {
+    float: left;
+    clear: both;
+    width: 100%
+  }
+  
+  .main-footer-content-inner {
+    clear: both;
+    width: 100%;
+    margin: 0 auto
+  }
+  
+  #mediz-footer-holder  .footer-logo-section .main-logo-holder {
+    float: left;
+    width: 100%;
+    clear: both;
+    margin-bottom: 0;
+    display: table
+  }
+  
+  #mediz-footer-holder  .footer-logo-section .main-logo-holder .logo {
+    float: left;
+    margin: 0 1.5em 0 0;
+    padding: 0
+  }
+
+  #mediz-footer-holder .footer-main-section  ul.social-links-nav {
+		float: none;
+		text-align: center;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		clear: both;
+		margin-left: 18px;
+   }
+	
+}
+
+@media only screen and (max-width: 1060px) {
+}
+/* Styles related to Mediz Careers footer - End */
+
+/* Start - Styles For fade animation of Bootstrap carousel */
+.carousel-indicators {
+	display: none;
+}
+
+.carousel-fade .carousel-inner .item {
+    transition-property: opacity;
+}
+
+#page.site.mediz-careers-site-holder .carousel-fade .carousel-inner .item {
+	min-height: 250px;
+}
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+	left: 0;
+        transform: translate3d(0, 0, 0);
+}
+/* End - Styles For fade animation of Bootstrap carousel */
+
+/* End - Added for MdizCareers.com */
+
+/* Added for success page */
+.success_page_common .thank-subheading {
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+.page-content-common {
+	padding-left: 32px;	
+}
+
+.success_page_common .success_icon_holder {
+    padding-bottom: 30px;
+}
+
+
+.success_page_common .thank-heading {
+    font-size: 24px;
+    color: #414042;
+    font-weight: bold;
+}
+
+.success_icon {
+	width: 100px;
+	height: 100px;
+}
+
+/* Added for success page */
+
+/* Styles for common header in page content section */
+.previous-page-nav {
+	padding: 4px;
+    	border-right: 1px solid #CECECE;
+    	margin-right: 5px;
+    	padding-right: 5px;
+}
